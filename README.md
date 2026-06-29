@@ -45,7 +45,6 @@ This project was built to explore how professional-style quantitative equity res
 
 ## Repository Structure
 
-```text
 factor-backtester/
 ├── configs/
 ├── data/
