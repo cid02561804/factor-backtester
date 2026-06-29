@@ -1,0 +1,38 @@
+
+---
+
+## **Put this into `.gitignore`**
+
+```gitignore
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test/cache tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data files
+data/raw/*
+data/processed/*
+data/external/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep

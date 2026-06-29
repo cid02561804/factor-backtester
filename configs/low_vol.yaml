@@ -1,0 +1,3 @@
+strategy:
+  name: "low_vol"
+  window: 63

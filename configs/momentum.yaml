@@ -1,0 +1,4 @@
+strategy:
+  name: "momentum"
+  lookback: 252
+  skip: 21
