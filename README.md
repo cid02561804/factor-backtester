@@ -52,7 +52,6 @@ factor-backtester/
 │   ├── raw/
 │   ├── processed/
 │   └── external/
-├── notebooks/
 ├── reports/
 │   └── figures/
 ├── scripts/
@@ -90,8 +89,8 @@ pytest
 
 ## Additional Scripts
 
-```text
 Cost-adjusted backtests and comparisons:
+```text
 python .\scripts\run_momentum_backtest_with_costs.py
 python .\scripts\run_low_vol_backtest_with_costs.py
 python .\scripts\compare_strategies.py
