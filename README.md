@@ -45,6 +45,7 @@ This project was built to explore how professional-style quantitative equity res
 
 ## Repository Structure
 
+```text
 factor-backtester/
 ├── configs/
 ├── data/
@@ -61,6 +62,7 @@ factor-backtester/
 ├── README.md
 ├── requirements.txt
 └── pyproject.toml
+```
 
 ## Methodology
 
@@ -74,6 +76,7 @@ factor-backtester/
 
 ## How to Run
 
+```text
 .\.venv\Scripts\Activate.ps1
 $env:PYTHONPATH="src"
 python .\scripts\build_dataset.py
@@ -83,14 +86,17 @@ python .\scripts\run_momentum_backtest.py
 python .\scripts\run_low_vol_backtest.py
 python .\scripts\generate_report.py
 pytest
+```
 
 ## Additional Scripts
 
+```text
 Cost-adjusted backtests and comparisons:
 python .\scripts\run_momentum_backtest_with_costs.py
 python .\scripts\run_low_vol_backtest_with_costs.py
 python .\scripts\compare_strategies.py
 python .\scripts\compare_gross_vs_net.py
+```
 
 ## Plots
 
